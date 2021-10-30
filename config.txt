@@ -1,0 +1,56 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "window.zoomLevel": 1,
+    "terminal.integrated.commandsToSkipShell": [
+        "psl.stepIn",
+        "psl.stepOut",
+        "psl.stepOver",
+        "psl.sendToHostTerminal"
+    ],
+    "git.autofetch": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+        "editor.matchBrackets": "never",
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.suggest.preview": true,
+    "[html]": {
+        "editor.matchBrackets": "never",
+    },
+    "[css]": {
+        "editor.matchBrackets": "never",
+    },
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+}
